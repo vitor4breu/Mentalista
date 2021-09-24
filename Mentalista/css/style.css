@@ -1,0 +1,149 @@
+body {
+    background-image:url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+
+}
+
+.letreiro-sombra {
+    height: 100%;
+    width: 100%;
+    margin-top: -15px;
+    margin-left: -15px;
+    border: #9932CC solid 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #FF1493;
+    position: absolute;
+
+}
+
+
+.letreiro-luz-1 {
+    height: 100%;
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -20px;
+    border: #FF1493 solid 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px #FF1493;
+    align-items: center;
+
+}
+
+.letreiro-luz-2 {
+    height: 100%;
+    width: 100%;
+    padding: 6px;
+    margin-top: -9px;
+    margin-left: -9px;
+    border: #DDA0DD solid 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #FF1493;
+}
+
+.painel {
+    height: 245px;
+    width: 33%;
+    margin-left: 33.5%;
+    margin-top: 360px;
+    font-family: "Press Start 2P", cursive;
+    color: #FFFF;
+    background:#9932CC;
+    position: absolute
+    
+    
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 15px #FF1493;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 0 0 15px #FF1493;
+}
+
+input {
+    font-size: 25px;
+    height: 30px;
+    width: 70%;
+    margin-left: 14%;
+    margin-right: 15%;
+    border: 2px solid #FF1493;
+    box-shadow: 0 0 15px #FF1493;
+    margin-top: 40px;
+    display: block;
+    
+}
+
+#layout {
+
+    height: 250px;
+    width: 33%;
+    margin-left: 33.5%;
+    margin-top: 380px;
+    color: #FFFF;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    position: absolute;
+
+}
+
+
+.cores {
+    margin-left: -5px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border:none;
+    border-radius:5px;
+    cursor: pointer
+    
+}
+
+.acerto {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: none;
+}
+
+.botoes {
+    display: inline;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #FF1493;
+    box-shadow: 0 0 15px #FF1493;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: silver;
+    
+}
+
+#red {
+    background-color: red;}
+
+#blue {
+    background-color: blue;}
+
+#orange {
+    background-color: orange;}
+
+#yellow {
+    background-color: yellow;}
+
+#green {
+    background-color: green;}
+
+#seagreen {
+    background-color: seagreen;}
+
+#brown {
+    background-color: brown;}
+
+#aqua {
+    background-color: aqua;}

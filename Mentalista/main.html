@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentalista</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="JS/Script.js"></script>
+
+</head>
+<body>
+    <div class="painel">
+        <div class="letreiro-sombra">
+            <div class="letreiro-luz-1">
+                <div class="letreiro-luz-2">      
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div id="layout">
+        <div id="game">
+        <h1>PENSEI EM UMA COR</h1>
+        <h2>tente adivinhar</h2>
+        <button id='aqua' class='cores' onclick= "cor_certa = 1; Chutar()"></button>
+        <button id="blue" class='cores' onclick="cor_certa = 2; Chutar()"></button>
+        <button id="green" class='cores' onclick="cor_certa = 3; Chutar()"></button>
+        <button id="red" class='cores' onclick="cor_certa = 4; Chutar()"></button>
+        <button id="orange" class='cores' onclick="cor_certa = 5; Chutar()"></button>
+        <button id="seagreen" class='cores' onclick="cor_certa = 6; Chutar()"></button>
+        <button id="yellow" class='cores' onclick="cor_certa = 7; Chutar()"></button>
+        <button id="brown" class='cores' onclick="cor_certa = 8; Chutar()"></button>
+        </div>
+        <div id="jogar_novamente" style="display: none;">
+            <h1 id="titulo"></h1>
+            <h2 id="frase"></h2>
+            <h2>Deseja jogar novamente?</h2>
+            <div style='display: inline; text-align: center;'>
+                <button class='botoes' style="margin-right: 75px;" onclick="jgdnv = true ; jogar_denovo()">SIM</button>
+                <button class='botoes' onclick="jgdnv = false ; jogar_denovo()">NÃO</button>
+            </div>
+        </div>
+        <div id='end' style='display: none; margin-top:80px'>
+            <h1 style="font-size: 40px;"> FIM DE JOGO </h1>
+        </div>
+
+    </div>
+    
+</body>
+</html>
